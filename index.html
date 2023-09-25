@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div> 
+            <a href="highscores.html"> View High Scores</a>
+            <div id = "hscontainer">
+                <div id ="hscounter">
+                    Timer:<span id = "current-time">75</span>    
+                </div>
+            </div>
+        </div>
+        <header>
+            <h1>Coding Quiz</h1>
+            <p id="intro-text">This quiz contains three questions about HTML, CSS and JavaScript. Good Luck!</p>
+        </header>
+        <main>
+            <div id="quiz-container" class= "wrapper">
+                <div id="question-container" class= "card">
+                    <p id="question-text"></p>
+                </div>
+                <div id="choices-container" class="btn-container">
+                </div>
+                <button id="start-button" class="btn">Start Quiz</button>
+            </div>
+            <div id = "save-score">
+                <input id = "score-text" type= "text"/>
+                <button id = "score-button">Submit</button> 
+            </div>
+            <div id="result-container" class="result">
+            </div>
+            <div id="previous-result">
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
